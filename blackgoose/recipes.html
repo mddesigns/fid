@@ -9,6 +9,32 @@ body {
 	margin: 2em 5%;
 	font-family: Georgia, "Times New Roman", Times, serif;
 }
+#navbar{
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	z-index: 999;
+	background-color: #E9FB4B;
+	position: fixed;
+}
+#navbar #nav{
+	float: center;
+	padding-top: 15px;
+	tex align: center;
+}
+
+li{
+	list-style: none;
+	display: inline-block;
+	padding-right: 10px;
+}
+li a{
+	text-decoration: none;
+	color: #d1633c;
+}
+li a:hover {
+	color:#E9FB4B;
+}
 h1 {
 text-align: center;
 font-family: serif;
@@ -53,16 +79,21 @@ footer img {
 
 <!--- Top Navigation Bar -->
 <center>
-
-<div class="topnav">
-  <a class="active" href="index.html">Home</a><lb>
-  <a href="menu.html">Menu</a><lb>
-  <a href="gallery.html">Gallery</a><lb>
-  <a href="recipes.html">Chef Jen</a><lb>
-  <a href="news.html">News</a><lb>
-  <a href="glossary.html" target="_blank">Glossary</a>
+	<div id="navbar">
+		
 </div>
-<!--- Top Navigation Bar -->
+<div id="nav">
+	<ul>
+  <li><a href="index.html">Home</a></li>
+  <li><a href="menu.html">Menu</a></li>
+<li><a href="gallery.html">Gallery</a></li>
+  <li><a href="recipes.html">Chef Jen</a></li>
+  <li><a href="news.html">News</a></li>
+  <li><a href="pizza.html">Order Pizza</a></li>
+<li><a href="glossary.html" target="_blank">Glossary</a></li>
+	</ul>
+
+</div>
 
 
 <img src="jenskitchen.gif" alt="Jen's Kitchen banner" width="660" height="94">
