@@ -1,40 +1,52 @@
+
 <!DOCTYPE html>
-<html>
+
+<html lang="en-US">
 <head>
 <meta charset="utf-8">
-<title>Jen's Kitchen: Recipes</title>
+<title>Black Goose Bistro</title>
 <style>
 body {
 	background-color: #E9FB4B;
 	margin: 2em 5%;
 	font-family: Georgia, "Times New Roman", Times, serif;
+	text-align: center;
 }
 #navbar{
 	top: 0px;
 	left: 0px;
 	width: 100%;
 	z-index: 999;
-	background-color: #E9FB4B;
+	background-color: #d1633c;
 	position: fixed;
 }
 #navbar #nav{
 	float: center;
 	padding-top: 15px;
-	tex align: center;
+	text align: center;
 }
 
 li{
 	list-style: none;
 	display: inline-block;
 	padding-right: 10px;
+	
 }
 li a{
+	margin:0 -4px 0 -2px;
+	padding:0 30px; 
+	font-weight:bold;
+	border-left:2px solid #000;
+	border-right:2px solid #000;
 	text-decoration: none;
-	color: #d1633c;
+	color: #E9FB4B;
+	position: relative;
 }
-li a:hover {
-	color:#E9FB4B;
+li a:hover, #nav a:focus {
+color:#fafad2;
 }
+
+
 h1 {
 text-align: center;
 font-family: serif;
@@ -43,23 +55,10 @@ text-transform: uppercase;
 border-bottom: 1px solid #57b1dc;
 margin-top: 30px;
 }
-
-	
-h1 {
-	font-size: 2em;
-}
 h2 {
-	text-align: left;
-	font-family: Verdana, Geneva, sans-serif;
-	font-size: 1.25em;
-}
-small {
-	color: #999;
-}
-h3 {
-	text-align: left;
-	font-family: Verdana, Geneva, sans-serif;
-	font-size: 1em;
+text-align: center;
+color: #d1633c;
+font-size: 1.25em;
 }
 footer {
   border-top: 1px solid #57b1dc;
@@ -73,16 +72,12 @@ footer img {
   margin-right: .5em;
 }
 </style>
-
 </head>
-<body>
 
-<!--- Top Navigation Bar -->
+<body>
 <center>
 	<div id="navbar">
 		
-</div>
-<div id="nav">
 	<ul>
   <li><a href="index.html">Home</a></li>
   <li><a href="menu.html">Menu</a></li>
@@ -94,8 +89,9 @@ footer img {
 	</ul>
 
 </div>
+</center>
 
-
+<br><br>
 <img src="jenskitchen.gif" alt="Jen's Kitchen banner" width="660" height="94">
 
 <h1>Welcome to Jen&rsquo;s Kitchen</h1>
@@ -106,12 +102,11 @@ footer img {
 
 
 <h2>Recipes From Jen&rsquo;s Cookbook</h2>
-<ul>
-  <li><a href="#startt">Tapenade (Olive Spread)</a></li>
-  <li><a href="#startg">Garlic Salmon</a></li>
-  <li><a href="#startl">Linguine with Clam Sauce</a></li>
-  <li><a href="#startc">Couscous with Peas and Mint</a></li>
-</ul>
+<a href="#startt">Tapenade (Olive Spread)</a>
+<a href="#startg">Garlic Salmon</a>
+<a href="#startl">Linguine with Clam Sauce</a>
+<a href="#startc">Couscous with Peas and Mint</a>
+
 
 
 <hr>
@@ -124,7 +119,7 @@ footer img {
 <h3>Ingredients</h3>
 
 <ul>
-<li>1 8oz. jar sundried tomatoes</li>
+<li>8oz. jar sundried tomatoes</li>
 <li>2 large garlic cloves</li>
 <li>2/3 c. kalamata olives</li>
 <li>1 t. capers</li>
@@ -221,7 +216,7 @@ footer img {
   <li><a href="http://www.epicurious.com">Epicurious</a></li>
 </ul>
 
-<hr>
+
 
 <footer>
 <center>
