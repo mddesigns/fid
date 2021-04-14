@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 
 <html lang="en-US">
@@ -9,13 +10,15 @@ body {
 	background-color: #E9FB4B;
 	margin: 2em 5%;
 	font-family: Georgia, "Times New Roman", Times, serif;
+	text-align: center;
 }
 #navbar{
 	top: 0px;
 	left: 0px;
 	width: 100%;
 	z-index: 999;
-	background-color: #E9FB4B;
+	background-color: #c9ffe5;
+	position: fixed;
 }
 #navbar #nav{
 	float: center;
@@ -30,11 +33,17 @@ li{
 	
 }
 li a{
+	margin:0 -4px 0 -2px;
+	padding:0 30px; 
+	font-weight:bold;
+	border-left:2px solid #000;
+	border-right:2px solid #000;
 	text-decoration: none;
 	color: #d1633c;
+	position: relative;
 }
-li a:hover {
-	color:#E9FB4B;
+li a:hover, #nav a:focus {
+color:#fff;
 }
 
 
@@ -69,7 +78,6 @@ footer img {
 <center>
 	<div id="navbar">
 		
-
 	<ul>
   <li><a href="index.html">Home</a></li>
   <li><a href="menu.html">Menu</a></li>
