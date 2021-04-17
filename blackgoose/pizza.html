@@ -99,7 +99,8 @@ footer img {
 </header>
 <p>Our 12" wood-fired pizzas are available for delivery. Build your custom pizza and we'll deliver it within an hour.</p>
 
-<form action="http:/www.blackgoosebistro.com/pizza.php" method="POST">
+<form action="http://www.blackgoosebistro.com/pizza.php" method="post">
+
 <fieldset>
   <legend>Your Information</legend>
   <ul>
@@ -116,7 +117,7 @@ footer img {
 
 <fieldset>
   <legend>Pizza specs</legend>
-
+  <fieldset>
     <legend>Crust <em>(Choose one)</em>:</legend>
     <ul>
       <li><label><input type="radio" name="crust" value="white"> Classic white</label></li>
@@ -152,8 +153,12 @@ footer img {
   </select>
   </p>
   </fieldset>
-<p><input type="SUBMIT" value="Bring me a pizza!">
-<input type="RESET"></p>
+
+</fieldset> <!-- closes 'Pizza Specs' fieldset -->
+
+<p><input type="submit" value="Bring me a pizza!">
+<input type="reset"></p>↩
+
 </form>
 <center>
 <a href="https://mddesigns.github.io/fid/blackgoose/index.html">[back to main page]</a></center>
