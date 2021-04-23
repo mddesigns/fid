@@ -5,6 +5,13 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
+.img {
+  width: 40px;
+  height: 40px;
+  margin-left: .5em;
+  margin-right: .5em;
+  text-align: center;
+}
 .body2 {
   background-color: blue;
   background-color: rgba(255, 255, 255, 0.75);
@@ -18,8 +25,16 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
-.sect1, .sect2, .sect3 {
+.sect3 {
   text-align: center;
+  image-align: center;
+  padding-right: 1.75em;
+  margin-right: 1.75em;
+  border-right: 1px solid blue;
+}
+.sect1, .sect2, .sect3, .sect4 {
+  text-align: center;
+  image-align: center;
   padding-right: 1.75em;
   margin-right: 1.75em;
   border-right: 1px solid blue;
@@ -37,31 +52,15 @@ text-align: center;
 color: #d1633c;
 font-size: 1.5em;
 }
-.heading2 {
-  text-align: center;
-}
-.backbutton {
-  text-align: center;
-  color: #8600b3;
-  font-weight: 900;
-}
-.image {
-  text-align: center;
-}
-a {
-  text-decoration: none;
-  color: blue;
-}
-a:hover {
-  color: #8600b3;
-}
 h3 {
 	text-align: center;
 	font-family: 'Poppins', sans-serif;
 }
-footer {
+h4 {
   text-align: center;
   padding-top: 1em;
+  color: #d1633c;
+  font-size: 1.5em;
 }
 .img {
   width: 40px;
