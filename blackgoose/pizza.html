@@ -4,29 +4,11 @@
 <html lang="en-US">
 <head>
 <meta charset="utf-8">
-<title>Black Goose Bistro</title>
+<title>Black Goose Bistro: Pizza-on-Demand</title>
+<link rel="stylesheet" href="blackgooseCSS.css">
+</head>
 <style>
-body {
-	background-color: #E9FB4B;
-	margin: 2em 5%;
-	font-family: Georgia, "Times New Roman", Times, serif;
-
-}
-#navbar{
-	top: 0px;
-	left: 0px;
-	width: 100%;
-	z-index: 999;
-	background-color: #d1633c;
-	position: fixed;
-	text-align: center;
-}
-#navbar #nav{
-	padding-top: 15px;
-	text-align: center;
-}
-
-li{
+li {
 	list-style: none;
 	display: inline-block;
 	padding-right: 10px;
@@ -39,48 +21,17 @@ li a{
 	border-left:2px solid #000;
 	border-right:2px solid #000;
 	text-decoration: none;
-	color: #E9FB4B;
+	color: #brown;
 	position: relative;
 }
 li a:hover, #nav a:focus {
-color:#fafad2;
-}
-
-
-h1 {
-text-align: center;
-font-family: serif;
-font-weight: normal;
-text-transform: uppercase;
-border-bottom: 1px solid #57b1dc;
-margin-top: 30px;
-}
-h2 {
-text-align: center;
-color: #d1633c;
-font-size: 1.25em;
-}
-p {
-	text-align: center;
-footer {
-  border-top: 1px solid #57b1dc;
-  text-align: center;
-  padding-top: 1em;
-}
-footer img {
-  width: 40px;
-  height: 40px;
-  margin-left: .5em;
-  margin-right: .5em;
+color:#990000;
 }
 </style>
-</head>
-
 <body>
 
-	<div id="navbar">
-		
-	<ul>
+<div class="navbar">
+<ul>
   <li><a href="index.html">Home</a></li>
   <li><a href="menu.html">Menu</a></li>
   <li><a href="gallery.html">Gallery</a></li>
@@ -88,19 +39,15 @@ footer img {
   <li><a href="news.html">News</a></li>
   <li><a href="pizza.html">Order Pizza</a></li>
   <li><a href="glossary.html" target="_blank">Glossary</a></li>
-	</ul>
-
+</ul>
 </div>
+<br>
+<div class="header"><img src="pizza.gif" width="200px" height="200px" alt="pizza-on-demand"><br>Blackstone Bistro | Pizza-on-Demand</div>
 
 <br>
-<header>
-<h1><img src="pizza.gif" width="200" height="200" alt="pizza-on-demand"><br>Blackstone Bistro | Pizza-on-Demand</h1>
-
-</header>
 <p>Our 12" wood-fired pizzas are available for delivery. Build your custom pizza and we'll deliver it within an hour.</p>
-
-<form action="http://www.blackgoosebistro.com/pizza.php" method="post">
-
+<br>
+<form action="http:/www.blackgoosebistro.com/pizza.php" method="POST">
 <fieldset>
   <legend>Your Information</legend>
   <ul>
@@ -153,14 +100,32 @@ footer img {
   </select>
   </p>
   </fieldset>
-
-</fieldset> <!-- closes 'Pizza Specs' fieldset -->
-
+<br>
 <p><input type="submit" value="Bring me a pizza!">
-<input type="reset"></p>↩
-
+<input type="reset"></p>
 </form>
+<br><br>
 <center>
 <a href="https://mddesigns.github.io/fid/blackgoose/index.html">[back to main page]</a></center>
+<br><hr><div class="footer">
+   <p>Location ｜ Hours of Operation ｜ Contact</p>
+   <p>Seekonk, Massachusetts <br>
+   Monday - Thursday, 11 am to 9 pm
+<br>
+   Friday & Saturday, 11 am to midnight
+<br>
+   (407) 555-0000 / jen@blackgoose.com
+ </p>
+ <p>
+Please visit our social media pages
+</p>
+ <p>
+<img src="twitter.svg" alt="twitter"><img src="facebook.svg" alt="facebook"><img src="instagram.svg" alt="instagram"></p>
+</div>
+<div id="copy">
+   <p>All content copyright &copy; 2017, Black Goose Bistro and Jennifer Robbins</p>
+</div>
+
+
 </body>
 </html>
