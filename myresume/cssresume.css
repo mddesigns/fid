@@ -47,7 +47,6 @@ body {
   text-align: center;
   padding-right: 1.75em;
   margin-right: 1.75em;
-  border-left: 1px solid blue;
 }
 h1 {
   text-align: center;
@@ -63,7 +62,7 @@ font-size: 2em;
 h3 {
 	text-align: center;
 	font-family: 'Poppins', sans-serif;
-	font-size: 1em
+	font-size: 1em;
 }
 h4 {
   text-align: center;
