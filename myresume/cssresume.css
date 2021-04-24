@@ -37,13 +37,16 @@ body {
   margin-right: auto;
 }
 
-.sect1, .sect2, .sect3, .sect4 {
+.sect1, .sect2,.sect4 {
   text-align: center;
   padding-right: 1.75em;
   margin-right: 1.75em;
   border-right: 1px solid blue;
-  border-left: 1px solid blue;
-
+}
+.sect3 {
+  text-align: center;
+  padding-right: 1.75em;
+  margin-right: 1.75em;
 }
 h1 {
   text-align: center;
@@ -54,11 +57,12 @@ h1 {
 h2 {
 text-align: center;
 color: #d1633c;
-font-size: 1.5em;
+font-size: 2em;
 }
 h3 {
 	text-align: center;
 	font-family: 'Poppins', sans-serif;
+	font-size: 1.5em
 }
 h4 {
   text-align: center;
