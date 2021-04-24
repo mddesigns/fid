@@ -36,8 +36,13 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
-
-.sect1, .sect2, .sect4 {
+.sect1 {
+	  text-align: center;
+  padding-right: 1.75em;
+  margin-right: 1.75em;
+  border-right: 1px solid blue;
+}
+.sect2, .sect4 {
   text-align: center;
   padding-right: 1.75em;
   margin-right: 1.75em;
@@ -47,6 +52,7 @@ body {
   text-align: center;
   padding-right: 1.75em;
   margin-right: 1.75em;
+	border-left: 0
 }
 h1 {
   text-align: center;
