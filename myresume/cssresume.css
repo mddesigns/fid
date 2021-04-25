@@ -3,23 +3,16 @@ body {
   background-color: #000000;
   background-size: auto;
   background-repeat: no-repeat;
-  background-attachment: fixed;  
+  background-attachment: fixed;
 }
 .header {
    text-align: center;
 }
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-}
 .img {
-  display: block;
   width: 40px;
   height: 40px;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: .5em;
+  margin-right: .5em;
   text-align: center;
 }
 .body2 {
@@ -36,39 +29,33 @@ body {
   margin-right: auto;
 }
 
-.sect1, .sect2, .sect3 {
+.sect1, .sect2, .sect3, .sect4 {
   text-align: center;
   padding-right: 1.75em;
   margin-right: 1.75em;
   border-right: 1px solid blue;
-}
-.sect4 {
-  text-align: center;
-  padding-right: 1.75em;
-  margin-right: 1.75em;
-  border-style: none;
+
 }
 h1 {
   text-align: center;
-  font-size: 42px;
+  font-size: 50px;
   font-family: 'Noto Serif', serif;
   border-bottom: 1px solid #57b1dc;
 }
 h2 {
 text-align: center;
 color: #d1633c;
-font-size: 1.85em;
+font-size: 1.5em;
 }
 h3 {
-	text-align: center;
+	text-align: left;
 	font-family: 'Poppins', sans-serif;
-	font-size: 1.30em;
 }
 h4 {
   text-align: center;
   padding-top: 1em;
   color: #ffffff;
-  font-size: 1.1em;
+  font-size: 1.5em;
 }
 .img {
   width: 40px;
