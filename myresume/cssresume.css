@@ -29,12 +29,17 @@ body {
   margin-right: auto;
 }
 
-.sect1, .sect2, .sect3, .sect4 {
+.sect1, .sect2, .sect3 {
   text-align: center;
   padding-right: 1.75em;
   margin-right: 1.75em;
   border-right: 1px solid blue;
-
+}
+.sect4 {
+  text-align: center;
+  padding-right: 1.75em;
+  margin-right: 1.75em;
+  border-right: 1px solid blue;
 }
 h1 {
   text-align: center;
